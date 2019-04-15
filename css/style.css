@@ -34,6 +34,25 @@ body {
 
 /* MEDIUM SIZES - 992px - 1170px */
 @media(min-width: 992px){
+    .main-header__image {
+        display: none;
+    }
 
-    
+    .main-header {
+        position: relative;
+        height: 70vh;
+        background-image: url("../img/man-2.jpg");
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .main-header__header {
+        position: absolute;
+        color: #fff;
+        top: 15vh;
+        right: 5vw;
+        text-align: left;
+
+    }
+
 }
