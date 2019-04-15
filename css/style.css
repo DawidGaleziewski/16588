@@ -32,7 +32,10 @@ body {
 /* HEADER STYLES - END */
 
 
-/* MEDIUM SIZES - 992px - 1170px */
+
+
+
+/* MEDIUM SIZES - 992px - 1170px - START */
 @media(min-width: 992px){
     .main-header__image {
         display: none;
@@ -56,3 +59,21 @@ body {
     }
 
 }
+/* MEDIUM SIZES - 992px - 1170px - END */
+
+
+
+
+/* LARGE SIZES - 1170px - START */
+@media(min-width: 1170px){
+    .main-header {
+        background-image: url("../img/man-1.jpg");
+        height: 100vh;
+    }
+
+    .main-header__header {
+        left: 5vw;
+        top: 45%;
+    }
+}
+/* LARGE SIZES - 1170px - END */
